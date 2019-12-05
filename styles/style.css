@@ -1,0 +1,44 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/*
+  Gives consol color and moves it to the side to display results
+*/
+#console-box{
+  height:90%;
+  width: 40%;
+  margin-bottom: 30%;
+  margin-right: 15%;
+  background-color: #000;
+  color: #55ff55;
+  float: right;
+  display: inline-block;
+}
+
+#updated-form{
+    height: auto;
+    width: auto;
+}
+
+/*
+ Moves body down because of nav bar at the top of the page
+*/
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
